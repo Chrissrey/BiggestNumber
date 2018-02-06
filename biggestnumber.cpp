@@ -16,9 +16,16 @@ int main()
   int WholeNumber2;
   cin>> WholeNumber2;	
 
-  cout<<"Of those two numbers, the biggest is: ";
+  int biggest;
+
+ if(WholeNumber1>=WholeNumber2)
+   {biggest=WholeNumber1;} 
+ else {biggest= WholeNumber2;}
+
+
+  cout<<"Of those two numbers, the biggest is: "<<biggest<<endl;
   
-  cout<<endl<<"Thank you for playing.\n";
+  cout<<"Thank you for playing.\n";
 
   return 0;
 }
